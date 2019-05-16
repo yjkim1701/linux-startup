@@ -3,9 +3,26 @@ initial setting list
 
 # ubuntu 18 LTS
 
+# 시간대 변경
+
+```
+$ sudo dpkg-reconfigure tzdata
+```
+
 # 개발 툴 설치
 
+## openjdk8 설치
+
+```
+$ sudo apt-get install openjdk-8-jdk
+```
+
 ## nodejs 설치 (version10)
+
+```
+$ curl -sL https://deb.nodesource.com/setup_10.x | sudo bash -
+$ sudo apt-get install -y nodejs
+```
 
 ## docker, docker-compose 설치
 
