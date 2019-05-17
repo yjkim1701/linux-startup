@@ -18,6 +18,7 @@ $ vi ~/.vimrc
 ```
 #### vi에서 아래 내용을 작성
 
+```
 set number    " line 표시
 set ai    " auto indent
 set si " smart indent
@@ -37,6 +38,7 @@ set wmnu    " tab 을 눌렀을 때 자동완성 가능한 목록
 syntax on    " 문법 하이라이트 on
 filetype indent on    " 파일 종류에 따른 구문 강조
 set mouse=a    " 커서 이동을 마우스로 가능하도록
+```
 
 # 개발 툴 설치
 
@@ -87,5 +89,6 @@ $ sudo apt-get install docker-ce
 # ssh 키 생성 및 등록
 
 ```
-$ ssh-key -t rsa
+$ ssh-keygen -t rsa
+$ cat ~/.ssh/id_rsa.pub
 ```
